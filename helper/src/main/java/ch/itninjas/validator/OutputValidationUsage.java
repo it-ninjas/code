@@ -23,6 +23,6 @@ public class OutputValidationUsage {
         // print the hash code
         outputValidation.printControlHash();
         // is the validation ok
-        outputValidation.verifyControlHash(42);
+        System.out.println(outputValidation.verifyControlHash(2128163011));
     }
 }
